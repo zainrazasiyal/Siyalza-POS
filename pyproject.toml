@@ -1,2 +1,14 @@
+[project]
+name = "siyalza-pos"
+version = "0.1.0"
+description = "Siyalza POS Cloud API"
+dependencies = [
+    ="fastapi",
+    ="uvicorn",
+    ="psycopg2-binary",
+    ="python-dotenv",
+    ="pydantic"
+]
+
 [tool.vercel]
 entrypoint = "main:app"
